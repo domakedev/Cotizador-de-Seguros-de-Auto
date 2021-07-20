@@ -1,0 +1,28 @@
+{
+  "name": "cotizador-de-seguros-de-auto",
+  "version": "1.0.0",
+  "description": "Cotizador de Seguros de Auto. Basico.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/tailwind.css -o public/css/styles.css",
+    "dev": "postcss css/tailwind.css -o public/css/styles.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domakedev/Cotizador-de-Seguros-de-Auto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domakedev/Cotizador-de-Seguros-de-Auto/issues"
+  },
+  "homepage": "https://github.com/domakedev/Cotizador-de-Seguros-de-Auto#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  }
+}

@@ -1,0 +1,106 @@
+@tailwind base;
+
+@tailwind components; 
+
+body{
+    @apply
+    h-screen
+    bg-gradient-to-r from-yellow-300 to-yellow-700
+
+    flex
+    justify-center
+    items-center
+}
+
+.container{
+    @apply
+    w-64
+
+    bg-blue-100
+
+}
+
+.header{
+    @apply
+    bg-blue-600
+    flex
+    justify-center
+    text-xl
+    text-blue-50
+    py-2
+}
+
+.input_data{
+    @apply
+    px-4
+    py-6
+}
+
+.form_group{
+    @apply
+    py-2
+}
+
+.loader{
+    @apply
+    flex
+    justify-center
+    items-center
+
+}
+
+
+.results{
+    @apply
+    
+    bg-blue-300
+    p-4
+}
+
+.result_text{
+    @apply
+    text-blue-900
+    text-center
+}
+
+
+.btn{
+    @apply
+    h-12
+}
+
+.btn{
+    @apply
+    flex
+    justify-center
+}
+
+.btn_cotiza{
+    @apply
+    /*Paddings*/
+    px-5
+    my-1
+
+    transform
+    duration-300
+    active:translate-y-1
+    shadow-xl
+
+
+    
+
+    rounded-md
+
+    select-none
+
+    bg-blue-600
+    text-blue-50 
+
+    active:bg-blue-700
+}
+
+.btn_cotiza{
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+
+@tailwind utilities;

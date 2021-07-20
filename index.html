@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>Auto Seguros</title>
+  </head>
+  <body>
+    <main class="container">
+
+      <header class="header">
+        <h1>
+            Asegura tu auto
+            <i class="fas fa-car"></i>
+        </h1>
+      </header>
+
+      <div class="input_data">
+        <form action="#">
+
+            <div class="form_group form_group-marca">
+                <label for="marca">Marca:</label>
+                <select class="form-control" id="marca">
+                  <option value="1" selected>Americano</option>
+                  <option value="2">Asiatico</option>
+                  <option value="3">Europeo</option>
+                </select>
+            </div>
+
+            <div class="form_group form_group-anio">
+                <label for="anio">Año:</label>
+                <select class="form-control" id="anio">
+                </select>
+            </div>
+
+            <div class="form_group form_group-cb">
+                <label class="checkbox" for="basic">
+                    <input id="basic" class="form-check-input" type="radio" name="tipo" value="basico" checked>
+                    Básico
+                </label>
+                <label class="checkbox" for="complete">
+                    <input id="complete" class="form-check-input" type="radio" name="tipo" value="completo" checked>
+                    Completo
+                </label>
+            </div>
+
+        </form>      
+      </div>
+
+      <div class="loader">
+          <img class="loader_img"  alt="">
+      </div>
+
+      <div class="results">
+            
+      </div>
+
+        <div class="btn">
+            <button class="btn_cotiza">COTIZAR</button>
+        </div>
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/d0d8060eb6.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
