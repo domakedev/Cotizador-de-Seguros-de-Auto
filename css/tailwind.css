@@ -46,7 +46,13 @@ body{
     flex
     justify-center
     items-center
+    
 
+}
+
+.loader_img{
+    @apply
+    h-20
 }
 
 
